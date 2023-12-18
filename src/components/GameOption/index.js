@@ -11,7 +11,7 @@ const GameOptions = props => {
       <GameOptionButton
         type="button"
         onClick={userChoice}
-        data-testid={${id.toLowerCase()}Button}
+        data-testid={`${id.toLowerCase()}Button`}
       >
         <OptionImage src={image} alt={id} />
       </GameOptionButton>
